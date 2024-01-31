@@ -42,13 +42,12 @@
 }
 </style>
 
-<script setup lang="ts">
+<script setup>
 import cfg from "~/assets/data/cfg.json";
 import { readContract, writeContract } from "@wagmi/core";
 
 import { mintAbi } from "~/assets/abi/index";
 import { formatEther } from "viem";
-import type { ClientOnly } from "#build/components";
 import { getAccount } from "@wagmi/core";
 import {
   useWeb3Modal,
@@ -77,7 +76,7 @@ const state = useWeb3ModalState();
 const events = useWeb3ModalEvents();
 
 const mintPrice = ref(0n);
-const totalSupply = ref("0");
+const totalSupply = ref(0n);
 const isConnectedRef = ref(isConnected);
 
 if (isConnectedRef) {

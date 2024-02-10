@@ -6,13 +6,17 @@
       >
         <ClientOnly>
           <!-- <h3 class="text-3xl font-bold mb-2">{{ totalSupply }}/50</h3> -->
-          <div class="flex flex-row justify-between items-center w-full">
+          <div
+            class="flex flex-col md:flex-row justify-between items-center w-full gap-3"
+          >
             <p class="text-lg font-normal max-w-[312px]">
               Стоимость токена (минимальная сумма для инвестирования)
             </p>
             <p class="text-3xl price-text">$40</p>
           </div>
-          <div class="flex flex-row justify-between items-center w-full">
+          <div
+            class="flex flex-col md:flex-row justify-between items-center w-full gap-3"
+          >
             <p class="text-lg font-normal max-w-[312px]">
               Доступно токенов к покупке:
             </p>

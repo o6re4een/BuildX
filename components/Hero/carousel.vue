@@ -11,7 +11,7 @@
           <div class="flex">
             <img
               :src="images[selectedImageIndex]"
-              class="h-[470px] max-w-full object-contain rounded-3xl"
+              class="h-[470px] max-w-full object-cover rounded-3xl"
             />
           </div>
         </div>

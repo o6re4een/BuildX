@@ -17,6 +17,13 @@ export default {
       fontFamily: {
         gilroy: ["Gilroy", "sans-serif"],
       },
+      transitionProperty: {
+        height: "height",
+        size: {
+          height: "height",
+          width: "width",
+        },
+      },
     },
   },
   plugins: [],

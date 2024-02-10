@@ -1,5 +1,7 @@
 <template>
-  <div class="container mx-auto flex flex-col md:flex-row gap-8 p-6">
+  <div
+    class="container mx-auto flex flex-col md:flex-row gap-8 p-6 mt-12 mb-12"
+  >
     <div class="flex flex-col md:w-1/2 w-full p-4">
       <div class="flex flex-col gap-3">
         <h2 class="font-bold text-xl">О районе:</h2>

@@ -1,0 +1,31 @@
+{
+  "roadMap": [
+    {
+      "date": "Февраль 2023",
+      "description": "Старт инвестиций"
+    },
+    {
+      "date": "Май 2023",
+      "description": "Ввод объекта в эксплуатацию"
+    },
+    {
+      "date": "Июль 2023",
+      "description": "Распределение прибыли"
+    }
+  ],
+  "docs": [
+    {
+      "title": "Описание",
+
+      "link": "https://nuxt.com/docs/guide/directory-structure"
+    },
+    {
+      "title": "Руководство",
+      "link": "https://nuxt.com/docs/guide/directory-structure"
+    },
+    {
+      "title": "Контакты",
+      "link": "https://nuxt.com/docs/guide/directory-structure"
+    }
+  ]
+}

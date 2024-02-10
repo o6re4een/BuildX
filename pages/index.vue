@@ -13,11 +13,11 @@
     <Hero></Hero>
 
     <h1 class="text-3xl font-bold text-white text-center pt-20">
-      Как успешно сминтить:
+      Как приобрести токен. Подробная инструкция:
     </h1>
     <Steps></Steps>
-    <Footer></Footer>
   </section>
+  <Footer></Footer>
 
   <!-- <ClientOnly>
     <w3m-button />

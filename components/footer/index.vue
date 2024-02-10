@@ -1,24 +1,66 @@
 <template>
-  <section
-    class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-3 text-white pt-16 p-2"
-  >
-    <h1 class="text-3xl font-bold">Buildix</h1>
-    <div class="flex items-center">
-      <svg
-        width="28"
-        height="28"
-        viewBox="0 0 28 28"
-        fill="red"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          id="Vector"
-          d="M16.5553 11.945L26.5463 0.572144H24.1796L15.5008 10.445L8.57422 0.572144H0.583252L11.0599 15.5031L0.583252 27.4278H2.94995L12.1091 16.9995L19.4256 27.4278H27.4166M3.80415 2.31989H7.44006L24.1778 25.766H20.541"
-          fill="black"
-        />
-      </svg>
-
-      <img src="~/assets/img/Tg.svg" alt="Buildix" class="w-20 h-20" />
+  <footer class="bg-white pt-10 px-10 lg:px-20 container mx-auto my-auto mb-12">
+    <!-- Newsletter Section -->
+    <div class="text-center mb-16 mt-12">
+      <h2 class="text-2xl font-semibold mb-10">Узнавай первым о новых лотах</h2>
+      <button class="bg-buttonColor text-white py-2 px-6 rounded-xl">
+        Подписаться
+      </button>
     </div>
-  </section>
+
+    <!-- Footer Section -->
+    <div
+      class="flex flex-col lg:flex-row justify-evenly items-center lg:items-start pt-12"
+    >
+      <!-- Brand Section -->
+      <div class="mb-6 lg:mb-0">
+        <h3 class="text-xl font-bold">Buildix</h3>
+        <p class="text-md max-w-[493px] mt-12">
+          Платформа фракционного инвестирования. Теперь зарабатывать на
+          недвижимости может каждый
+        </p>
+      </div>
+
+      <!-- Navigation & Contacts -->
+      <div class="flex flex-col lg:flex-row">
+        <!-- Navigation Links -->
+        <div class="mb-6 lg:mb-0 lg:mr-10">
+          <h4 class="font-semibold mb-3">НАВИГАЦИЯ</h4>
+          <ul class="space-y-2 mt-4">
+            <li>
+              <a href="#" class="">Как работаем</a>
+            </li>
+            <li>
+              <a href="#" class="">Калькулятор инвестиций</a>
+            </li>
+            <li>
+              <a href="#" class="">White paper</a>
+            </li>
+            <li>
+              <a href="#" class="">Дорожная карта </a>
+            </li>
+            <li>
+              <a href="#" class="">Команда </a>
+            </li>
+            <li>
+              <a href="#" class="">Вопросы и ответы </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contacts & Social Media -->
+        <div>
+          <h4 class="font-semibold mb-3">КОНТАКТЫ</h4>
+          <div class="flex space-x-4">
+            <!-- Social Media Icons -->
+            <!-- Replace # with actual links and add icon images -->
+            <a href="#" class="text-gray-600 hover:text-gray-800">
+              <!-- <img src="/path-to-your-social-icon" alt="Social Media Icon" /> -->
+            </a>
+            <!-- ... other icons ... -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>

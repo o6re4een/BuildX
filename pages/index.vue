@@ -9,7 +9,7 @@
     <HeroAboutBuilder></HeroAboutBuilder>
     <HeroRoadMap></HeroRoadMap>
   </div>
-  <section class="p-8 bg-primary gradient-bg">
+  <section class="px-4 bg-primary gradient-bg mt-20">
     <Hero></Hero>
 
     <h1 class="text-3xl font-bold text-white text-center pt-20">

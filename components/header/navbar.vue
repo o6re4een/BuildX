@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-white">
     <div
-      class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-3"
+      class="container mx-auto px-4 sm:px-6 lg:px-8 pt-8 flex justify-between items-center mt-2"
     >
       <div class="hidden md:flex justify-start">
         <a href="#about" class="text-gray-800 hover:text-blue-600">О нас</a>

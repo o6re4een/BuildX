@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto flex flex-col gap-8 p-6 justify-center items-center"
+    class="container mx-auto flex flex-col gap-5 px-6 mt-20 justify-center items-center"
   >
     <h1 class="text-3xl font-bold">Об объекте</h1>
     <p class="text-md text-center md:w-1/2 w-full">

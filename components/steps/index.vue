@@ -52,7 +52,9 @@
     </defs> -->
   <!-- </svg> -->
   <section class="container mx-auto text-white backdrop-blur-3xl">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-20">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 pb-20"
+    >
       <StepsItem
         v-for="(step, index) in stepsData"
         :key="index"
@@ -61,7 +63,7 @@
         :class="{ 'lg:col-span-2': index == 4, 'lg:col-span-1': index != 4 }"
       />
     </div>
-    <hr class="container w-full mt-20" />
+    <!-- <hr class="container w-full mt-20" /> -->
   </section>
 </template>
 

@@ -1,30 +1,32 @@
 <template>
-  <footer class="bg-white pt-10 px-10 lg:px-20 container mx-auto my-auto mb-12">
+  <footer class="bg-white pt-20 px-4 md:px-20 container mx-auto my-auto mb-12">
     <!-- Newsletter Section -->
-    <div class="text-center mb-16 mt-12">
+    <div class="text-center">
       <h2 class="text-2xl font-semibold mb-10">Узнавай первым о новых лотах</h2>
-      <button class="bg-buttonColor text-white py-2 px-6 rounded-xl">
+      <button
+        class="bg-buttonColor text-white py-2 px-6 rounded-xl w-full md:w-fit text-md"
+      >
         Подписаться
       </button>
     </div>
 
     <!-- Footer Section -->
     <div
-      class="flex flex-col lg:flex-row justify-evenly items-center lg:items-start pt-12"
+      class="flex gap-6 flex-col md:flex-row justify-evenly items-center md:items-start pt-[110px]"
     >
       <!-- Brand Section -->
-      <div class="mb-6 lg:mb-0">
+      <div class="mb-10 md:mb-0 flex flex-col text-center">
         <h3 class="text-xl font-bold">Buildix</h3>
-        <p class="text-md max-w-[493px] mt-12">
+        <p class="text-md max-w-[343px] md:max-w-[493px] mt-4">
           Платформа фракционного инвестирования. Теперь зарабатывать на
           недвижимости может каждый
         </p>
       </div>
 
       <!-- Navigation & Contacts -->
-      <div class="flex flex-col lg:flex-row">
+      <div class="flex flex-col md:flex-row text-center">
         <!-- Navigation Links -->
-        <div class="mb-6 lg:mb-0 lg:mr-10">
+        <div class="mb-10 md:mb-0 md:mr-10">
           <h4 class="font-semibold mb-3">НАВИГАЦИЯ</h4>
           <ul class="space-y-2 mt-4">
             <li>

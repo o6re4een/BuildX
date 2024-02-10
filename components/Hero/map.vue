@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="container mx-auto flex flex-col md:flex-row gap-8 p-6 mt-12 mb-12"
-  >
-    <div class="flex flex-col md:w-1/2 w-full p-4">
+  <div class="container mx-auto flex flex-col md:flex-row gap-8 mt-20">
+    <div class="flex flex-col md:w-1/2 w-full px-12">
       <div class="flex flex-col gap-3">
         <h2 class="font-bold text-xl">О районе:</h2>
         <p class="font-normal text-md">
@@ -11,7 +9,7 @@
           инфраструктуры
         </p>
       </div>
-      <div class="flex flex-col mt-[150px] gap-3">
+      <div class="flex flex-col mt-20 gap-3">
         <h2 class="font-bold text-xl">О Бали:</h2>
         <p class="font-normal text-md">
           Бали - туристический магнит, привлекает постоянный поток арендных
@@ -27,7 +25,10 @@
       </div>
     </div>
     <div>
-      <img src="~/assets/img/map.png" class="h-[622px] object-cover" />
+      <img
+        src="~/assets/img/map.png"
+        class="h-[622px] object-cover rounded-lg px-4"
+      />
     </div>
   </div>
 </template>

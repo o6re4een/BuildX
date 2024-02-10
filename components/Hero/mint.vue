@@ -1,8 +1,8 @@
 <template>
   <section class="container mx-auto mint-component text-white">
-    <div class="p-6 flex flex-col items-center">
+    <div class="flex flex-col items-center">
       <div
-        class="max-w-[618px] gradient-border bg-opacity-50 p-6 flex flex-col gap-7 items-center justify-center mb-6 w-full"
+        class="max-w-[618px] gradient-border bg-opacity-50 p-6 flex flex-col gap-10 items-center justify-center w-full"
       >
         <ClientOnly>
           <!-- <h3 class="text-3xl font-bold mb-2">{{ totalSupply }}/50</h3> -->

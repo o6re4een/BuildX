@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center py-12">
+  <div class="container mx-auto px-6 flex justify-center mt-20">
     <div class="max-w-4xl w-full">
       <!-- Контейнер для двух колонок -->
       <div class="flex gap-8 md:flex-row flex-col">

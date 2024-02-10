@@ -1,23 +1,32 @@
 <template>
-  <div class="container mx-auto p-6 bg-white text-center mt-6 mb-6">
-    <h2 class="text-3xl font-semibold">ALEX VILLAS COMPLEX 7 STUDIO D POOL</h2>
-    <p class="text-sm text-gray-500">
-      Премиальные апартаменты с бассейном на острове Бали (Индонезия)
-    </p>
-    <div class="flex space-x-4 my-4">
-      <button class="bg-gray-200 text-gray-700 py-2 px-4 rounded-full">
-        Бали, Индонезия
-      </button>
-      <button class="bg-gray-200 text-gray-700 py-2 px-4 rounded-full">
-        Идет строительство
-      </button>
+  <div
+    class="container mx-auto p-6 bg-white text-center mt-14 mb-6 flex flex-col items-center"
+  >
+    <div class="flex flex-col items-center gap-4 mb-10">
+      <h2 class="text-3xl font-semibold max-w-[287px]">
+        ALEX VILLAS COMPLEX 7 STUDIO D POOL
+      </h2>
+      <p class="text-md">
+        Премиальные апартаменты с бассейном на острове Бали (Индонезия)
+      </p>
     </div>
     <div class="relative flex space-x-4">
       <!-- Carousel Component -->
       <div class="w-full flex flex-col items-center">
         <div class="relative w-full">
           <div class="md:hidden flex justify-center">
-            <div class="absolute flex gap-2 right-12 bottom-5 z-10 rounded-xl">
+            <div class="absolute left-2 top-2 flex flex-col gap-2">
+              <button
+                class="bg-white py-2 px-3 rounded-full flex flex-row items-center"
+              >
+                <img class="mr-2 w-4 h-4" src="~/assets/img/geoPoint.svg" />
+                Бали, Индонезия
+              </button>
+              <button class="bg-white py-2 px-3 rounded-full">
+                Идет строительство
+              </button>
+            </div>
+            <div class="absolute flex gap-2 right-2 bottom-5 z-10 rounded-xl">
               <img src="~/assets/img/leftArrow.svg" @click="prevImage" />
               <img src="~/assets/img/rightArrow.svg" @click="nextImage" />
             </div>
@@ -74,11 +83,15 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-between mt-6">
-      <button class="button-bg text-white py-2 px-6 rounded-lg">
+    <div
+      class="flex md:justify-between mt-20 flex-col md:flex-row gap-4 w-full md:w-fit text-lg"
+    >
+      <button class="button-bg text-white py-4 px-6 rounded-2xl">
         Инвестировать
       </button>
-      <button class="text-blue-500 py-2 px-6 rounded-lg border border-blue-500">
+      <button
+        class="text-buttonColor py-4 px-6 rounded-2xl border border-buttonColor"
+      >
         Об объекте
       </button>
     </div>

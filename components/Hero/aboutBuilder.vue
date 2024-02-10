@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-8 p-6 mt-6 mb-12 justify-center items-center">
+  <div class="flex flex-col gap-8 px-6 mt-20 justify-center items-center">
     <h1 class="text-3xl font-bold">O застройщике</h1>
     <div
       class="flex md:flex-row flex-col justify-center items-center gap-12 text-center mt-6"

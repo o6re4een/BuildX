@@ -1,10 +1,10 @@
 <template>
-  <div class="relative flex space-x-4 mt-8 mb-8">
+  <div class="container mx-auto px-6 relative flex space-x-4 mt-20">
     <!-- Carousel Component -->
     <div class="w-full flex flex-col items-center">
       <div class="relative w-full">
         <div class="md:hidden flex justify-center">
-          <div class="absolute flex gap-2 right-12 bottom-5 z-10 rounded-xl">
+          <div class="absolute flex gap-2 right-2 bottom-5 z-10 rounded-xl">
             <img src="~/assets/img/leftArrow.svg" @click="prevImage" />
             <img src="~/assets/img/rightArrow.svg" @click="nextImage" />
           </div>
